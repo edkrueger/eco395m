@@ -1,6 +1,6 @@
 # ECO 395m: Python, Databases, and Big Data
 
-Unique Numbers: 34983, 34984
+Unique Numbers: 34970, 34973
 
 Course website: https://github.com/edkrueger/eco395m
 
@@ -8,7 +8,7 @@ Course website: https://github.com/edkrueger/eco395m
 
 Class will meet Tuesday and Thursday **3:30pm - 5:00pm CT**.  
 
-TA sessions are optional and will meet Fridays from **11:30am - 12:30am CT**. 
+TA sessions are optional and will meet Fridays from **TBD**. 
 
 Class will be held in person in **BRB 1.118**.  
 TA sessions will be held in person in **BRB 1.118**.  
@@ -19,13 +19,13 @@ Recordings of lectures will be posted for a limited time on Canvas through Lectu
 
 * Email: edwardkrueger@utexas.edu
 * Office Hours: Tuesdays and Thursdays 5:00pm - 5:45pm CT
-* Office Hours Location: BRB 3.134H
+* Office Hours Location: TBD
 
 ## Teaching Assistant: Shreeyesh Menon
 
 * Email: shreeyesh.menon@utexas.edu
-* TA Office Hours: Mondays 2:00pm - 3:00pm CT, Wednesdays 4:00pm - 5:00pm CT
-* TA Office Hours Location: 2.154 BRB
+* TA Office Hours: TBD
+* TA Office Hours Location: TBD
 
 ---
 
@@ -79,7 +79,7 @@ We will start from the beginning with Python. However, some slight exposure to p
 
 ## How to Succeed in This Course
 
-### Durring Lectures
+### During Lectures
 Lectures will be fast-paced, and you must pay attention in class. It can be tempting to replicate every step I take and write the same code I write _while in the lecture_. I don't recommend this as you'll likely fall behind and miss out on new material. So it may be wise to consider not opening your computer at all during class.
 
 ### Outside of Class
@@ -120,8 +120,8 @@ Your participation grade will be based on the extent to which you attend class d
 * Homework will not be assigned during project weeks but may be due during them.
 * Homework assignments from previous semesters are posted in the class repository but may change in part or entirely at any time before I assign them for this semester.
 * Due dates will be announced as homeworks is assigned. Homeworks will typically be due a week from when they are assigned. Late homework will _not_ be accepted.
-* For each homework, you may make an additional attempt _once_ after receiving your initial grade. I will assign the due dates for the additional attempt for each homework. Late additional attempts will _not_ be accepted. If you make an additional attempt, its grade will replace your initial grade.
-* The _two_ lowest-scoring homeworks will be dropped to allow you some flexibility throughout the semester.
+* For each homework, you may make an additional attempt _once_ after receiving your initial grade. I will assign the due dates for the additional attempt for each homework. Late additional attempts will _not_ be accepted. If you make an additional attempt, its grade will replace your initial grade but will incur a 5% penalty. So, for example, if you score a 90% on an additional attempt, you will receive an 85% as your grade for the homework.  
+* The lowest-scoring homeworks will be dropped to allow you some flexibility throughout the semester.
 * Homeworks will be submitted in _private_ Github repositories. You must invite the TA(s) and me as collaborators. We'll be able to find your homeworks if you follow the instructions in the assignments. Homework solutions may not be made public. Grades will be posted on Canvas. You will not need to submit homeworks on Canvas.
 
 ### Group Projects and Group Project Presentations
