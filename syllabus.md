@@ -198,6 +198,5 @@ DeBarros (2nd Edition): 2, 3, 4, 6, 7, 8, 9, 10, 16
 Harrison:33 ("SQL" section)
 
 ## Final Project
-~Project Work Weeks -- _Tuesday, November 15th_, _Thursday, November 17th_, _Tuesday, November 29th_ and _Thursday, Dec 1st_ will be used for in class project work. ~
 Last two weeks of class.
-Final Project Presentations will be on ~_Thursday, December 8th, 3:30pm-6:30pm CT_~ TBD.
+Final Project Presentations will be on TBD.
