@@ -8,7 +8,7 @@ Course website: https://github.com/edkrueger/eco395m
 
 Class will meet Tuesday and Thursday **3:30pm - 5:00pm CT**.  
 
-TA sessions are optional and will meet Fridays from **TBD**. 
+TA sessions are optional and will meet Fridays from **11:30-12:30**. 
 
 Class will be held in person in **BRB 1.118**.  
 TA sessions will be held in person in **BRB 1.118**.  
@@ -19,12 +19,12 @@ Recordings of lectures will be posted for a limited time on Canvas through Lectu
 
 * Email: edwardkrueger@utexas.edu
 * Office Hours: Tuesdays and Thursdays 5:00pm - 5:45pm CT
-* Office Hours Location: TBD
+* Office Hours Location: **BRB 1.118** (**BRB 1.120** on 2023-08-24, 2023-08-31, 2023-09-19)
 
 ## Teaching Assistant: Shreeyesh Menon
 
 * Email: shreeyesh.menon@utexas.edu
-* TA Office Hours: TBD
+* TA In Person Office Hours: 2:00pm - 3:00pm CT
 * TA Office Hours Location: TBD
 
 ---
