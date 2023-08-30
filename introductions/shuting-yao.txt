@@ -1,0 +1,4 @@
+Hi everyone! My name is Shuting Yao. I am a graduate student in 
+Communciation Studies and Statistics. I am fairly familiar with R but have 
+less experiences in Python. I use quantitative methods to do my research. 
+Nice to meet y'all!
