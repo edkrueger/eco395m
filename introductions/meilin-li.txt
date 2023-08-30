@@ -1,0 +1,6 @@
+Hi everyone! My name is Meilin Li and I'm an international student from China. I just graduated from college with double majors in Economics and Film & Media Studies. 
+My interests in economics is related to application of economics in real 
+world, such as environment and education. 
+I have minor experience with other programming languages during college, but no experience with python. 
+I found programming to be really hard but can also be fun when the codes run successfully. That's why I'm here! I'm excited to learn more about programming and data in this class, which will also enhance my overall quantitative skills. It's nice to meet everyone, and happy programming! 
+
