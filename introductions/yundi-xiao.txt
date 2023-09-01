@@ -1,3 +1,1 @@
-Hello! My name is Yundi Xiao. I am interested in microeconomics, especially in applied microeconomics and behavioral economics.
-Programming and data are fun to work with and are such powerful tools. And python is an important programming language in both academia and industry. Thus, I am taking this course to learn more about python.
-	
+Hi, I am yundi xiao.
