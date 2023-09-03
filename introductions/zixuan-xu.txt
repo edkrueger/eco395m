@@ -1,1 +1,1 @@
-
+Hi. I am Zixuan Xu, a first-year MS student in Operation Research. I found my interest in using Python to do data analytics, machine learning modeling, and statistical inferences. I am excited to learn more about Python and databases in this course and make friends with all of you.
