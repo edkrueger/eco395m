@@ -24,7 +24,7 @@ Recordings of lectures will be posted for a limited time on Canvas through Lectu
 ## Teaching Assistant: Shreeyesh Menon
 
 * Email: shreeyesh.menon@utexas.edu
-* TA In Person Office Hours: 2:00pm - 3:00pm CT
+* TA In Person Office Hours: Tuesdays 2:00pm - 3:00pm CT (in person), Fridays 2:00pm - 3:00pm CT (Zoom(
 * TA Office Hours Location: TBD
 
 ---
