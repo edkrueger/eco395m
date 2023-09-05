@@ -42,26 +42,45 @@
 # print(is_even(0) == True)
 
 
-def get_letter_grade(num_grade):
+# def get_letter_grade(num_grade):
 
-	grade = None
+# 	if  90 <= num_grade <= 100:
+# 		return "A"
+# 	if 80 <= num_grade < 90:
+# 		return "B"
+# 	if 70 <= num_grade < 80:
+# 		return "C"
+# 	if 60 <= num_grade < 70:
+# 		return "D"
+# 	if 0 <= num_grade < 60:
+# 		return "F"
 
-	if num_grade >= 90:
-		grade = "A" 
-	elif num_grade >= 80:
-		grade = "B"
-	elif num_grade >= 70:
-		grade = "C"
-	elif num_grade >= 60:
-		grade = "D"
-	else:
-		grade = "F"
+# 	raise ValueError("num_grade must be between 0 and 100 (inclusive)") 
 
-	return grade
 
-print(get_letter_grade(100) == "A")
-print(get_letter_grade(73) == "C")
-print(get_letter_grade(3) == "F" )
+# print(get_letter_grade(100) == "A")
+# print(get_letter_grade(73) == "C")
+# print(get_letter_grade(3) == "F" )
+# print(get_letter_grade(-566))
+
+def fizz_buzz(n):
+
+
+	if (n % 3 == 0) and (n % 5 == 0):
+		return "FizzBuzz"
+	if n % 3 == 0:
+		return "Fizz"
+	if n % 5 == 0:
+		return "Buzz"
+	
+	return n
+
+assert fizz_buzz(3) == "Fizz"
+assert fizz_buzz(5) == "Buzz"
+assert fizz_buzz(15) == "FizzBuzz"
+assert fizz_buzz(7) == 7
+
+
 
 
 
