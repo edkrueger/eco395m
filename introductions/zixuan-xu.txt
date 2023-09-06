@@ -1,0 +1,5 @@
+Hi! I am Zixuan Xu, a first year MS student in ORIE.
+I am interested in data analytics with Python.
+I had experiences using Python to conduct Machine Learning and data visualization.
+But I didn't learn git, SQL, and other very useful tools in real work systematically
+Hope to learn more details in this course and make friends with all of you!
