@@ -14,7 +14,7 @@ c) Select "Settings>Collaborators>" and add "edkrueger"and the TA(s) as collabor
 
 You'll make a database instance and a database, then you will connect to it with DBeaver (or another SQL client of your choice) and run a script to create and load the tables. You'll also configure the environmental variables so that the checker, written in Python, can execute SQL against your database.
 
-a) Make a database instance as we did in class. If you've already done this, you can use the one you already have. Go to GCP SQL and create a PostgreSQL 13 database instance. Make sure that you whitelist the IPs in block 0.0.0.0/0. Picking the lowest spec for this instance will be sufficient for this problem. Save your password!  
+a) Make a database instance as we did in class. If you've already done this, you can use the one you already have. Go to GCP SQL and create a PostgreSQL 13+ database instance. Make sure that you whitelist the IPs in block 0.0.0.0/0. Picking the lowest spec for this instance will be sufficient for this problem. Save your password!  
 
 b) Use GCP SQL to create a database called `chinook`. You can do this in the "Databases" tab.
 
