@@ -19,12 +19,12 @@ Recordings of lectures will be posted for a limited time on Canvas through Lectu
 
 * Email: edwardkrueger@utexas.edu
 * Office Hours: Tuesdays and Thursdays 5:00pm - 5:45pm CT
-* Office Hours Location: **BRB 1.118** (**BRB 1.120** on 2023-08-24, 2023-08-31, 2023-09-19)
+* Office Hours Location: **BRB 1.118** (unless otherwise indicated)
 
 ## Teaching Assistant: Shreeyesh Menon
 
 * Email: shreeyesh.menon@utexas.edu
-* TA In Person Office Hours: Tuesdays 2:00pm - 3:00pm CT (in person), Fridays 2:00pm - 3:00pm CT (Zoom(
+* TA In Person Office Hours: TBD
 * TA Office Hours Location: TBD
 
 ---
@@ -50,9 +50,9 @@ That said, the quality of resources, especially the freely available ones, varie
 Here is a non-exhaustive list of resources that I recommend and will suggest readings from in class:  
 * _Unix for the Beginning Mage_ by Joe Topjian (Freely available online.)
 * _git - the simple guide_ by Roger Dudler (Freely available here: https://rogerdudler.github.io/git-guide/)
-* _Think Python : How to Think Like a Computer Scientist_ By Downey, Allen B. (Get the 2nd edition. The 1st edition is written for Python 2, which is rather unlike Python 3)
-* _Effective Pandas_ by Matt Harrison
-* _Practical SQL: A Beginner's Guide to Storytelling with Data_ by DeBarros, Anthony (You may use either the 1st or 2nd edition. The 2nd edition covers some material I will cover that the 1st edition does not. I'll post one version of the suggested readings for each edition.)  
+* _Think Python : How to Think Like a Computer Scientist_ By Downey, Allen B. (Get the 2nd or 3rd edition. The 1st edition is written for Python 2, which is rather unlike Python 3. I'll be using the 2nd edition.)
+* _Effective Pandas_ by Matt Harrison (I'll be using the 1st edition, but the 2nd edition will suffice as well.)
+* _Practical SQL: A Beginner's Guide to Storytelling with Data_ by DeBarros, Anthony (You may use either the 1st or 2nd edition. The 2nd edition covers some material I will cover that the 1st edition does not. I'll be using the 2nd edition.)  
 
 
 Other resources that I recommend:
