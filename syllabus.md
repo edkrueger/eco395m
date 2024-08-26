@@ -8,7 +8,7 @@ Course website: https://github.com/edkrueger/eco395m
 
 Class will meet Tuesday and Thursday **3:30pm - 5:00pm CT**.  
 
-TA sessions are optional and will meet Fridays from **11:30-12:30**. 
+TA sessions are optional and will meet Fridays from **1:30-12:30**. 
 
 Class will be held in person in **BRB 1.118**.  
 TA sessions will be held in person in **BRB 1.118**.  
@@ -199,6 +199,6 @@ Harrison:33 ("SQL" section)
 
 ## Final Project
 
-Project Work Days -- _Thursday, November 16th_, _Tuesday, November 28th_, and _Thursday, November 30th_ will be used for in-class project work.
+Project Work Days -- _Tuesday, December 3rd_, and _Thursday, December 5th_ will be used for in-class project work.
 
-Final Project Presentations will be on _Thursday, December 7th, 3:30pm-6:30pm CT_.
+Final Project Presentations will be on _Friday, December 13th, 3:30pm-5:30pm CT_.
