@@ -188,14 +188,14 @@ Suggested Readings:
 Downey: 1, 2, 3, 5 (skip recursion topics), 6 (skip recursion topics), 7, 8, 10, 11, 12, 14, 19 (skip Named Tuples), 20
 Harrison: 3-11, 14, 16-28, 32, 33 (except "SQL" section)
 ## Midterm Project
-Project Work Week -- _Thursday, Oct 5th_ and _Tuesday, Oct 10_ will be used for in class project work.  
-Midterm Project Presentations will be on _Thursday, Oct 12, 3:30pm-5:00pm CT_.
+Project Work Week -- _Thursday, Oct 10th_ and _Tuesday, Oct 15th_ will be used for in class project work.  
+Midterm Project Presentations will be on _Thursday, Oct 17, 3:30pm-5:00pm CT_.
 
 ## Topic 3 SQL and Python with SQL
 Suggested Readings:
 DeBarros (1st Edition): 1, 2, 3, 5, 6, 7, 8, 9  
 DeBarros (2nd Edition): 2, 3, 4, 6, 7, 8, 9, 10, 16  
-Harrison:33 ("SQL" section)
+Harrison: 33 ("SQL" section)
 
 ## Final Project
 
