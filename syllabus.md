@@ -8,7 +8,7 @@ Course website: https://github.com/edkrueger/eco395m
 
 Class will meet Tuesday and Thursday **3:30pm - 5:00pm CT**.  
 
-TA sessions are optional and will meet Fridays from **1:30-12:30**. 
+TA sessions are optional and will meet Fridays from **2:00-3:00**. 
 
 Class will be held in person in **BRB 1.118**.  
 TA sessions will be held in person in **BRB 1.118**.  
