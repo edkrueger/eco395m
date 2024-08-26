@@ -199,6 +199,6 @@ Harrison:33 ("SQL" section)
 
 ## Final Project
 
-Project Work Days -- _Tuesday, December 3rd_, and _Thursday, December 5th_ will be used for in-class project work.
+Project Work Days -- _Thursday, November 21st_, _Tuesday, December 3rd_, and _Thursday, December 5th_ will be used for in-class project work.
 
 Final Project Presentations will be on _Friday, December 13th, 3:30pm-5:30pm CT_.
