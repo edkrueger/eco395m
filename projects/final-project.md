@@ -7,7 +7,6 @@ You'll use a database. You'll select a topic and data sources to load into a dat
 You'll include an analysis and visualization element in your project.
 
 You'll have to use at least one significant technology or pattern that we haven't covered in homework. Some examples of variable difficulty could include:
-* Using GCP Data Studio to connect to a Database and produce visualizations
 * Using Big Query
 * Making an interactive dashboard in Streamlit
 * Making an application or dashboard in Flask
@@ -19,6 +18,8 @@ You'll have to use at least one significant technology or pattern that we haven'
 * Schedule scraper to run periodically by deploying
 * Use an ML model to make predictions on demand
 * Using a noSQL database
+
+You should not use Tableau, Power BI or similar tools unless you request permission.  
 
 You’ll use a public GitHub repository to organize, record and document your work and your findings. This project will become part of your portfolio – it's public, so you are welcome and encouraged to share it when you are done. You’ll present your work to the class.
 
