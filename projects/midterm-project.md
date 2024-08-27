@@ -2,6 +2,8 @@
 
 You’ll work in self assigned groups with 3-5 members. You’ll create a dataset by combining other datasets or scraping data. Unless you come to me for a specific exemption, don't use only a Kaggle dataset, similarly clean data or a toy dataset. Then you’ll perform an analysis on that dataset. You’ll use a public GitHub repository to organize, record and document your work and your findings. This project will become part of your portfolio – it's public, so you are welcome and encouraged to share it when you are done. You’ll present your work to the class.
 
+You should _not_ use Tableau, PowerBI or similar tools for this project.
+
 ## The Report in README.md - (30 points)
 
 The report should cover your data source and your analysis.  
