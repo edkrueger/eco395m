@@ -34,6 +34,7 @@ Requirements for reproducibility:
 * All data cleaning must be reproducible through code – data must not be manually modified (i.e. no modifications in Excel)
 * Must use relative paths
 * Data should be included in the repository if the dataset is small enough, otherwise instructions for downloading the datasets and placing them in the right locations is required.
+* Your code should have as few entry points as reasonable. I.e. rather than requiring `data_cleaning_step_1.py`, `data_cleaning_step_2.py`, etc., to be run, have simply `data_cleaning.py`
 
 ## Code Quality - (10 points)
 
