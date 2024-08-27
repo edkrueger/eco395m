@@ -56,7 +56,6 @@ Here is a non-exhaustive list of resources that I recommend and will suggest rea
 
 
 Other resources that I recommend:
-* _Pandas 1. x Cookbook : Practical Recipes for Scientific Computing, Time Series Analysis, and Exploratory Data Analysis Using Python_ by Harrison, Matt and Petrou, Theodore
 * The Python Documentation: https://docs.python.org/3.7/
 * The Pandas Documentation: https://pandas.pydata.org/docs/
 * The Postgres Documentation: https://www.postgresql.org/docs/
