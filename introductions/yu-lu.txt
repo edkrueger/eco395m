@@ -1,4 +1,4 @@
-Hello, everyone! I'm Yu Lu, and I'm currently in my first year of the master's program in Operations Research and Industrial Engineering. I completed my undergraduate studies in Data Science, and I'm particularly interested in machine learning models and their applications. Through this course, I hope to gain more advanced techniques that will help me better organize and analyze data.
+Hello, everyone! I'm Yu Lu, and I'm currently in my first year of the master's program in Operations Research and Industrial Engineering. I completed my undergraduate studies in Data Science, and I'm interested in machine learning models and their applications. I hope to gain more advanced techniques that will help me better organize and analyze data through this course.
 
 In my free time, I enjoy photography, staying fit, hiking, and visiting museums. It's a pleasure to meet you all!
 
