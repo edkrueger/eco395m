@@ -1,0 +1,2 @@
+Howdy, y'all. This is Libo Xu and I am first year master's student in Operations Research and Industrial Engineering.I have huge interests in time series analysis, database, and developing data ETL pipeline. I completed my undergrad degree at the University of Illinois Urbana-Champaign in Mathematics. My favorite sports are tennis, badminton, and swimming, and I also like to travel a lot during vacations.I hope this course could deepen my understanding in database and big data with a solid founation in data science. Glad to meet you!
+  
