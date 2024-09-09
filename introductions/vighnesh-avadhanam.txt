@@ -1,0 +1,6 @@
+Hi, my name is Vighnesh Avadhanam. Within the field of economics, I am 
+interested in industrial organization and more broadly in applied microeconomics.
+My interests in programming are related to gaining skills in data science, and 
+in particular in R and Python. For projects, I am interested in looking at market
+research, fiscal policy, or macroeconomic data.
+
