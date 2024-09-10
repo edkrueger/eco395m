@@ -1,0 +1,11 @@
+Hello y'all!
+
+	My name is Juan Guerra and I am on my second semester of the 10-month track Econ MA program. My interest in Economics stems from my experience as an immigrant
+and trying to understand the choices made by my family when they chose to emigrate to the US. In this journey I have become particularly interested in behavioral
+economics, finance, and monetary policy. I do not have much formal training in data analysis and programming so I am looking forward to gaining an understanding of
+the practical applications of programming to economic analysis. 
+
+	In my free time I enjoy traveling to many places both with the US and to other countries. I also enjoy music, hiking, and finding new and exciting ways to
+experience life. I am looking forward to learning with you all!     
+
+- JuanG
