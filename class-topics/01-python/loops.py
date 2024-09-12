@@ -1,38 +1,116 @@
-l = [5, 6, 3, 2, 5]
+l = [1, 3, 5, 7, 11, 13, 17]
 
-# # for loop by element
+# print every element in a list
+
 # for e in l:
 #     print(e)
 
-# for loop by index
 # for i in range(len(l)):
 #     print(l[i])
 
-# while 1
+# idx = 0
+# while idx < len(l):
+#     print(f"{idx=}")
+#     print(f"{l[idx]=}")
+#     idx = idx + 1
 
-i = 0
-while i < len(l):
-    print(l[i])
-    i = i + 1
+# print evens
 
-# while 2
+# def evens_range(end):
+#     for num in range(0, end, 2):
+#         print(num)
 
-i = 0
-while i <= len(l) - 1:
-    print(l[i])
-    i = i + 1
+# def evens_mod(end):
+#     for num in range(0, end):
+#         if num % 2 == 0: 
+#             print(num)
 
-# while 3
+# def evens_while(end):
 
-i = 0
-while True:
-    print(l[i])
-    i = i + 1
+#     num = 0
 
-    if i >= len(l):
-        break
+#     while num < end:
+#         print(num)
+#         num = num + 2
 
-# range()
-print(list(range(5)))
-print(list(range(2, 5)))
-print(list(range(2, 100, 2)))
+# evens_range(100)
+# evens_mod(100)
+# evens_while(100)
+
+print(sum(l))
+
+def total(l):
+
+    result = 0
+
+    for e in l:
+        result = result + e
+
+    return result
+
+def total_idx(l):
+
+    result = 0
+
+    for i in range(len(l)):
+        result = result + l[i]
+
+    return result
+
+def total_while(l):
+
+    result = 0
+
+    idx = 0
+
+    while idx < len(l):
+        result = result + l[idx]
+        idx = idx + 1
+
+    return result
+
+print(total(l))
+print(total_idx(l))
+print(total_while(l))
+
+# scalar multiplication
+
+def scalar_mult(scalar, list_):
+
+    out_list = []
+
+    for e in l:
+        out_list.append(e * scalar)
+
+    return out_list
+
+print(scalar_mult(5, l))
+
+print([5 * e for e in l])
+print([i for i in range(100) if i % 2 == 0])
+
+def mult5(x):
+    return 5 * x
+
+print(list(map(mult5, l)))
+
+print(list(map(lambda x: 5 * x
+, l)))
+
+r = (5 * e for e in l)
+print(type(r))
+print(r)
+
+print(next(r))
+print(next(r))
+
+for e in r:
+    print(e)
+for e in r:
+    print(e)
+
+
+
+
+
+

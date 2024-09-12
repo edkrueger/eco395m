@@ -1,43 +1,24 @@
-my_string = "hello world"
-str_upper = my_string.upper()
+str_ = "Hello World"
 
-# the string's content uppercased
-str_upper
+str_cap = str_.upper()
 
-# original string is not changed
-my_string
+print(str_cap)
+print(str_)
 
-"absFds".swapcase()
+str_0 = str_
 
-type(my_string.title())
+# not a great coding pratice
+str_ = 2 * str_
 
-# bad practice, demo that reassignment is not mutation
-a = "abc"
-print(a)
-print(id(a))
-a = a.upper()
-print(a)
-print(id(a))
+print(str_)
+print(str_0)
 
-# indexes
-my_string[0]
-my_string[len(my_string) - 1]
-my_string[-1]
+print(id(str_))
+print(id(str_0))
 
-my_string[0:5]
-my_string[:5]
-my_string[6:11]
-my_string[6:-1]
-my_string[6:]
-my_string[6:-2]
+print(str_.upper())
+print(str_.lower())
+print(str_.title())
+print(str_.swapcase())
 
-my_string[0:5]
-my_string[0:5:1]
-my_string[-1:0:-1]
-my_string[::-1]
-
-def is_palindrome(str_):
-    return str_ == str_[::-1]
-
-print(is_palindrome("tacocat"))
-print(is_palindrome("hello"))
+print(str_.title().swapcase())
