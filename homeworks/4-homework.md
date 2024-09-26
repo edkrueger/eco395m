@@ -50,9 +50,9 @@ I'd encourage you to understand how it works if you are interested, but I'll giv
 
 c) Convert to lowercase.  
 
-d) Remove punctuation by running `clean_text = re.sub('[^A-Za-z\s]', '', dirty_text)` with the variables substituted as nescessesary.  
+d) Remove punctuation by running `clean_text = re.sub(r'[^A-Za-z\s]', '', dirty_text)` with the variables substituted as nescessesary.  
 
-e) Normalize all whitespace to single spaces with `text_with_only_spaces = re.sub("\s+", " ", text_with_arbitrary_whitespace)` with the variables substituted as nescessesary.  
+e) Normalize all whitespace to single spaces with `text_with_only_spaces = re.sub(r"\s+", " ", text_with_arbitrary_whitespace)` with the variables substituted as nescessesary.  
 
 f) Convert your cleaned text into a list of one-word strings.  
 
