@@ -1,46 +1,26 @@
 import os
 
-PATH = os.path.join("data", "lines.txt")
-OUT_PATH = os.path.join("artifact.txt")
+IN_PATH = os.path.join("data", "lines.txt")
+OUT_PATH = os.path.join("data", "outfile.txt")
+OUT_PATH_2 = os.path.join("data", "outfile2.txt")
 
-
-print(PATH)
-
-with open(PATH) as file:
-    print(file.read())
-
-
-with open(PATH) as file:
-    print(file.readline())
-    print(file.readline())
-    print(file.readline())
-    print(file.readline())
-    print(file.readline())
-    print(file.readline())
-    print(file.readline())
-    print(file.readline())
-
-with open(PATH) as file:
-    print(file.readlines())
-
-# skip the first line, print the rest
-with open(PATH) as file:
-    file.readline()
-    print(file.read())
-
-with open(PATH) as file:
-
-    lines = []
-
+with open(IN_PATH, "r") as file:
     for line in file:
-        lines.append(line.strip())
+        print(line)
 
-    print(lines)
+data = list(range(10))
 
-data = [
-    1,2,3,4,5,6,7,8,3,5,7,8,3,2
-]
+print(data)
 
-with open(OUT_PATH, mode="w+") as out_file:
+with open(OUT_PATH, "w+") as outfile:
     for d in data:
-        out_file.write(str(d) + "\n")
+        outfile.write(str(d))
+        outfile.write("\n")
+
+with open(OUT_PATH_2, "w+") as outfile2:
+    outfile2.writelines([str(d) + "\n" for d in data])
+
+
+
+    
+
