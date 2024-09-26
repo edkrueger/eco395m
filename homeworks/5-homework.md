@@ -3,7 +3,7 @@ You must have a _private_ repository with the name specified. You must also add 
 
 ## Problem 0 - (0 points)
 
-You'll request data about groundwater from the USGS's groundwater REST service for the summer of 2022. Click (here)[https://waterservices.usgs.gov/rest/GW-Levels-Service.html] for the documentation -- you'll need it.
+You'll request data about groundwater from the USGS's groundwater REST service for the summer of 2022. Click (here)[https://waterservices.usgs.gov/docs/groundwater-levels/groundwater-levels-details/] for the documentation -- you'll need it.
 
 You'll clone a repo some starter code.  
 
