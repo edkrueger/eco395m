@@ -1,11 +1,26 @@
-a = "Hello World"
-b = 'Hello World'
-c = """"quotes" 'quotes'"""
-d = "\"quote"
+x = "Helo"
+y = 'Hello'
+z = """Helllo"""
+
+print(x)
+print(y)
+print(z)
+
+print(x * 5)
+print("=" * 60)
+
+print(x + y)
+
+print("a" < "B")
+print(ord("a"))
+print(ord("B"))
+
+print(x == y)
+print(x != y)
 
 name = "Edward"
-greeting = f"Hello, my name is {name}"
-greeting_2 = "Hello, my name is " + name
+greeting = "Hello " + name
+print(greeting)
 
-debug_ = f"name={name}"
-debug_2 = f"{name=}"
+greeting_2= f"Helloo {name}"
+print(greeting_2)
