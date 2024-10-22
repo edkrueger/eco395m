@@ -64,10 +64,8 @@ c) Look at `prompt_classifier.py` and notice that I've left in tests for many of
 
 d) Write the string `PROMPT` according to the prompt you used in step (a) and write `classify_text_message`. Make sure that `classify_text_message` can only return "ham" or "spam".
 
-(_Note that `classify_text_message` is decorated with a cache, this will save you from making the same request multiple times, however, if you modify your prompt, you'll have to remove the cache with `rm -rf .cachedir` to make requests with the new prompt._)
-
 e) In `classify.py`, write `load_data` which loads a CSV given a path. Note that in this homework, the paths are not hard coded into the code base, but passed by the user as an argument to Python. For example, to run the code on a valid CSV at `data/eval.csv`, you'll run `python code/classify.py data/eval.csv artifacts/eval.csv`. This will cause the program to write the output CSV to `artifacts/eval.csv`.
 
 f) Write `classify_all`. There are many ways to do this, but the intended way is to pass `classify_text_message` as an argument to `progress_apply`. To be able to use a progress bar with pd.DataFrame, tqdm can modify pd.DataFrame's methods to include `progress_apply` which works like apply, but adds a progress bar.
 
-g) Check your classification metrics in the classification report from the evaluation dataset by running `python code/classify.py data/eval.csv artifacts/eval.csv` if you are happy with them, then you are done. Otherwise, try modifying your prompt until they improve. Remember that you'll have to clear the cache to modify the prompt. Remove the cache with `rm -rf .cachedir`.
+g) Check your classification metrics in the classification report from the evaluation dataset by running `python code/classify.py data/eval.csv artifacts/eval.csv` if you are happy with them, then you are done. Otherwise, try modifying your prompt until they improve.  
