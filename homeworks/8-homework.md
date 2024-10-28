@@ -38,7 +38,7 @@ This dataset will allow you to evaluate the quality of your classifier.
 
 For this assignment, you _will_ submit your `.env` file along with your code. This is not normally a good practice, but it will allow me to grade your problem using your account. In the unlikely event that there is an error in your code that causes excessive requests or excessive tokens to be sent to the API, you will bear the costs.
 
-When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-gptzs` to open your repository and running `python code/classify.py data/holdout.csv artifacts/holdout.csv`, where `holdout.csv` is a file that we intentionally do not distribute. You can instead run `python code/classify.py data/eval.csv artifacts/eval.csv` to check that your solution works on the evaluation set.
+When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-gptzs` to open your repository and running `python code/classify.py data/holdout.csv artifacts/holdout.csv`, where `holdout.csv` is a file that we intentionally do not distribute. You can instead run `python code/classify.py data/eval.csv artifacts/eval.csv` to check that your solution works on the evaluation set. (Note that the program `classify.py` will create any directories specified in the second sys arg. So, as its used above, it will create the `artifacts` directory.)
 
 Your code will be executed in a Python environment containing only the Standard Library and the packages specified in `requirements.txt`. Install them with `pip install -r requirements.txt`.   
 
