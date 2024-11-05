@@ -1,6 +1,8 @@
 -- check the total length of each of the datasets
-
+select count(*) from 
 -- check if county_fips is an identifier - its not
+select county_flips, count(*) county_count from 2000 group by county_flips having count(*)>1 order by county_count
+select * from where countu_flips in ('001','002','003')
 
 -- check if state_fips is an identifier - its not
 
