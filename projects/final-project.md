@@ -15,6 +15,7 @@ You'll have to use at least one significant technology or pattern that we haven'
 * Use a faster library (CUDF, Polars, Dask, Spark, etc.) to process larger datasets
 * Take advantage of Postgres' Full-text search
 * Take advantage of Postgres' GIS capabilities
+* Take advantage of Postgres' Vector Search
 * Schedule scraper to run periodically by deploying
 * Use an ML model to make predictions on demand
 * Using a noSQL database
