@@ -103,8 +103,6 @@ Requirements for the repo:
 
 ## Presentation - (5 points)
 
-Presentations will be in class on _Thursday, December 8th, 3:30pm-6:30pm CT_.  
-
 Requirements for the presentation:
 * You should try to test your setup in <location TBD> before the day of presentations if possible, problems during the setup will cut into your presentations and affect your grade.
 * The presentation must be around 10 minutes – we’ll cut you off if it isn’t.
