@@ -9,7 +9,7 @@ You'll include an analysis and visualization element in your project.
 You'll have to use at least one significant technology or pattern that we haven't covered in homework. Some examples of variable difficulty could include:
 * Using Big Query
 * Making an interactive dashboard in Streamlit
-* Making an application or dashboard in Flask
+* Making an application or dashboard in FastAPI (or Flask)
 * Making and deploying a dashboard as a static site
 * Using the ORM part of SQLAlchemy
 * Use a faster library (CUDF, Polars, Dask, Spark, etc.) to process larger datasets
