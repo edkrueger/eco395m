@@ -112,6 +112,6 @@ Requirements for the presentation:
 * You’ll have 5 minutes of Q&A with the class and me.
 
 ## Individual Requirements - (20 points)
-* You must solve at least two meaningful issues
-* You make at least 5 meaningful commits
+* You must solve at least two meaningful issues and the code must be merged into the main branch.
+* You make at least 5 meaningful commits and the code must be merged into the main branch.
 * You must attend your group’s presentation and all others
