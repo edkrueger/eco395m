@@ -9,12 +9,14 @@ You'll include an analysis and visualization element in your project.
 You'll have to use at least one significant technology or pattern that we haven't covered in homework. Some examples of variable difficulty could include:
 * Using Big Query
 * Making an interactive dashboard in Streamlit
-* Making an application or dashboard in Flask
+* Making an application or dashboard in FastAPI (or Flask)
 * Making and deploying a dashboard as a static site
 * Using the ORM part of SQLAlchemy
 * Use a faster library (CUDF, Polars, Dask, Spark, etc.) to process larger datasets
 * Take advantage of Postgres' Full-text search
 * Take advantage of Postgres' GIS capabilities
+* Take advantage of Postgres' Vector Search
+* Take advantage of Postgres' JSON
 * Schedule scraper to run periodically by deploying
 * Use an ML model to make predictions on demand
 * Using a noSQL database
@@ -101,8 +103,6 @@ Requirements for the repo:
 
 ## Presentation - (5 points)
 
-Presentations will be in class on _Thursday, December 8th, 3:30pm-6:30pm CT_.  
-
 Requirements for the presentation:
 * You should try to test your setup in <location TBD> before the day of presentations if possible, problems during the setup will cut into your presentations and affect your grade.
 * The presentation must be around 10 minutes – we’ll cut you off if it isn’t.
@@ -112,6 +112,6 @@ Requirements for the presentation:
 * You’ll have 5 minutes of Q&A with the class and me.
 
 ## Individual Requirements - (20 points)
-* You must solve at least two meaningful issues
-* You make at least 5 meaningful commits
+* You must solve at least two meaningful issues and the code must be merged into the main branch.
+* You make at least 5 meaningful commits and the code must be merged into the main branch.
 * You must attend your group’s presentation and all others

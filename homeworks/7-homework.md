@@ -1,73 +1,68 @@
 ## Homework 7
-
 You must have a _private_ repository with the name specified. You must also add me (edkrueger) and the TAs ([Click here for TA GitHub usernames](/ta-githubs.txt)) as collaborators.  
-
-In this assignment, you'll build a zero-shot classifier using OpenAI's "gpt-3.5-turbo" model through the [chat completions API](https://platform.openai.com/docs/guides/gpt/chat-completions-api). You'll ultimately use the [OpenAI Python Library](https://github.com/openai/openai-python), but it's a thin wrapper around the API, so you should read the API docs first.
-
-Though I've written this assignment and picked and subsetted the dataset to minimize costs, you should also look at the pricing for this API, which you can find [here](https://openai.com/pricing).
-
-You'll apply your classifier to a small labeled text message spam dataset in order to validate it.
 
 ## Problem 0 - (0 points)
 
-You'll clone a repo with some starter code.  
+You'll clone a repo that has the datasets, some structure and some (very minimal) starter code.  
 
-a) Go to the repo: https://github.com/edkrueger/eco395m-homework-gptzs
+a) Go to the repo: https://github.com/edkrueger/eco395m-homework-election    
 
-b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-gptzs".  
+b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-election".  
 
-c) Select "Settings>Collaborators>" and add "edkrueger" and the TAs as collaborators.
+c) Select "Settings>Collaborators>" and add "edkrueger" and the TA(s).  
 
-## Problem 1 - (100 points)
-You'll write a program that reads in a CSV with the following schema.
+## Problem 1 - (50 points)
+You'll aggregate 2020 county-level election results into state-level results.
 
-| Field | Type | Example |
-| - | - | - |
-| "label" | str, either "ham" or "spam" | "spam" |
-| "text" | str | "Boltblue tones for 150p Reply POLY# or MONO# eg POLY3 1. Cha Cha Slide 2. Yeah 3. Slow Jamz 6. Toxic 8. Come With Me or STOP 4 more tones txt MORE" |
+When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-election` to open your repository and running `python3 code/election_2020.py`. This will execute the code on the `main` branch.  
 
-Your program will apply a zero-shot classifier to the "text" column in order to predict labels resulting in a CSV with the following schema.
-
-| Field | Type | Example |
-| - | - | - |
-| "label" | str, either "ham" or "spam" | "spam" |
-| "text" | str | "Boltblue tones for 150p Reply POLY# or MONO# eg POLY3 1. Cha Cha Slide 2. Yeah 3. Slow Jamz 6. Toxic 8. Come With Me or STOP 4 more tones txt MORE" |
-|"predicted_label"| str, either "ham" or "spam"|"spam"|
-
-This dataset will allow you to evaluate the quality of your classifier.
-
-For this assignment, you _will_ submit your `.env` file along with your code. This is not normally a good practice, but it will allow me to grade your problem using your account. In the unlikely event that there is an error in your code that causes excessive requests or excessive tokens to be sent to the API, you will bear the costs.
-
-When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-gptzs` to open your repository and running `python code/classify.py data/holdout.csv artifacts/holdout.csv`, where `holdout.csv` is a file that we intentionally do not distribute. You can instead run `python code/classify.py data/eval.csv artifacts/eval.csv` to check that your solution works on the evaluation set.
-
-Your code will be executed in a Python environment containing only the Standard Library and the packages specified in `requirements.txt`. Install them with `pip install -r requirements.txt`.   
-
-If your code does not execute properly with this command, it will be considered incomplete and you will receive a 0.  
-
-After running your code, we'll check for a CSV file called `holdout.csv` at the location, relative to the top level of the repo, of `artifacts/holdout.csv`.
+Depending on your Python installation, you may need to run it with `python code/election_2020.py`.  
+Because Python paths are relative to the location the _script is executed from_, it is essential to follow this instruction for execution.  
+If your code does not execute properly with this command, it will be considered incomplete.  
+We'll check for a CSV file called `election_report.csv` at the location, relative to the top level of the repo, of `artifacts/election_report.csv`.  
 
 The expectation is that your code generates the output when we run it, not just that the file exists. This means that if the code does not run, you will receive a 0.  
 
-We also expect that your code executes in under 5 minutes; if it does not, you will receive a 0. For context, my code executes in approximately 2 minutes.  
+You'll get 20 points if the generated CSV follows the format specified in `artifacts/example_election_report.csv`. In particular, this means that the CSV must have the same header as the example. If it does not, you will receive a 0.  
 
-You'll get 20 points if the generated CSV follows the format specified in `artifacts/holdout.csv`. In particular, the CSV must have the same header as the example. If it does not, you will receive a 0 for this part.  
+You'll get 10 points if the CSV is in the correct order.
+We'll spot-check your CSV's word counts for 3 state/candidate combinations. If their counts all match the example exactly, you'll get 20 points. Otherwise, if they are all within +/- 20% of the example's counts, you'll get 10 points, but we'll have to have a recount. Data is real election data, so you can verify your results against the actual outcomes.
 
-You'll get 80 points if your classifier has a weighted average F1 of .9 or greater AND your accuracy is greater than .9 when evaluated against the holdout set. If your classifier works but does not meet this threshold, you'll get 60 points.
+Do not import any modules _other than modules found in the [Python Standard Library](https://docs.python.org/3/library/)_ for this problem; if you do, You will receive a 0 for this problem.  
+In particular, do not use Pandas for this problem.  
+The point of this problem is to learn Python and some of its standard library.  
 
-_You are required to use the starter code. If you don't we will not help you. You don't necessarily need to complete the steps in the order below, but you should follow all of the steps._
+_For more realistic problems like this one, there are often many different ways to implement the same requirements.
+There is some starter code in the template that you can decide to use entirely, partially, or not at all.  
+In any case, if you follow the instructions, you should get the same results I do._
 
-a) Use ChatGPT's web interface to design a prompt.
+a) Count the votes for each combination of year, state code and candidate while ignoring years that aren't 2020. (Hint: Any immutable type can be a dictionary key in Python; in particular, this means that tuples can be dictionary keys.)  
+b) Convert your Dictionary to a list of rows containing year, state code, candidate and total votes so that it is ready to sort.  
+c) Sort your list of rows such that the results are in alphabetical order by state code and, for each state, the row are ordered by descending number of votes. In other words, for each state, the candidate with the most votes should appear first. (Hint: There are essentially two approaches to this part. One approach to this problem is to take advantage of the fact that the sort that the `sorted` function uses is a stable sort. A stable sort is a sort that preserves the order of elements where the values of a sort key are the same. Therefore we can sort the list twice, with different keys, to achieve our goal. Another more challenging but potentially more performant option is to create a function that ranks the rows in the correct order and use this as the sort key. This approach is essentially the same as making a utility function that represents safety-first or lexicographical preferences. If you take this approach, note that you can access character codes (which are ordered) for a character with the `ord` function.)  
+d) Write to a CSV file to `artifacts/election_report.csv` with columns "year", "state_code", "candidate" and "votes". For an example, see `artifacts/example_election_report.csv`  
 
-b) Make an OpenAI developers account, obtain an API key, and put that key into your `.env` file with the environmental variable name `OPENAI_API_KEY`. __This time, and this time only, you will submit your `.env` in the repo. Therefore, it's extra important that you keep your repo private. It's highly recommended that you roll your key after the homework is graded.__ 
 
-c) Look at `prompt_classifier.py` and notice that I've left in tests for many of the functions under `if __name__ == "__main__"`. You can run them by running `python code/prompt_classifier.py`. You can also use the sample data in this section to understand what the raw data looks like and what is expected for each function's output.
+## Problem 2 - (50 points)
+You'll aggregate 2020 county-level election results into state-level results. But this time with Pandas.
 
-d) Write the string `PROMPT` according to the prompt you used in step (a) and write `classify_text_message`. Make sure that `classify_text_message` can only return "ham" or "spam".
+When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-election` repository and running `python3 code/pandas_election_2020.py `.  
+Depending on your Python installation, you may need to run it with `python3 code/pandas_election_2020.py`.  
+Because Python paths are relative to the location the _script is executed from_, it is essential to follow this instruction for execution.  
+If your code does not execute properly with this command, it will be considered incomplete.  
+We'll check for a CSV file called `election_report_pandas.csv` at the location, relative to the top level of the repo, of `artifacts/election_report_pandas.csv`.  
+The expectation is that your code generates the output when we run it, not just that the file exists.  
 
-(_Note that `classify_text_message` is decorated with a cache, this will save you from making the same request multiple times, however, if you modify your prompt, you'll have to remove the cache with `rm -rf .cachedir` to make requests with the new prompt._)
+You'll get 20 points if the generated CSV follows the format specified in `artifacts/example_election_report.csv`. In particular, this means that the CSV must have the same header as the example. If it does not, you will receive a 0. This means that if the code does not run, you will receive a 0.  
 
-e) In `classify.py`, write `load_data` which loads a CSV given a path. Note that in this homework, the paths are not hard coded into the code base, but passed by the user as an argument to Python. For example, to run the code on a valid CSV at `data/eval.csv`, you'll run `python code/classify.py data/eval.csv artifacts/eval.csv`. This will cause the program to write the output CSV to `artifacts/eval.csv`.
+You'll get 10 points if the CSV is in the correct order.
+We'll spot-check your CSV's word counts for 3 state/candidate combinations. If their counts all match the example exactly, you'll get 20 points. Otherwise, if they are all within +/- 20% of the example's counts, you'll get 10 points, but we'll have to have a recount. Data is real election data, so you can verify your results against the actual outcomes.
 
-f) Write `classify_all`. There are many ways to do this, but the intended way is to pass `classify_text_message` as an argument to `progress_apply`. To be able to use a progress bar with pd.DataFrame, tqdm can modify pd.DataFrame's methods to include `progress_apply` which works like apply, but adds a progress bar.
+Use Pandas for this problem!
 
-g) Check your classification metrics in the classification report from the evaluation dataset by running `python code/classify.py data/eval.csv artifacts/eval.csv` if you are happy with them, then you are done. Otherwise, try modifying your prompt until they improve. Remember that you'll have to clear the cache to modify the prompt. Remove the cache with `rm -rf .cachedir`.
+_For more realistic problems like this one, there are often many different ways to implement the same requirements. That said, it is possible to solve this problem as a single method chain pipe. You are encouraged to do so._
+
+a) Count the votes for each year, state code, candidate combination while ignoring years that aren't 2020.  
+b) Sort your list of rows such that the results are in alphabetical order by state code and, for each state, the row are ordered by descending number of votes. In other words, for each state, the candidate with the most votes should appear first.  
+c) Write to a CSV file to `artifacts/election_report_pandas.csv
+` with columns "year", "state_code", "candidate" and "votes". For an example, see `artifacts/example_election_report.csv`  
+d) You can check that the CSV from this problem is identical to the last one by running `python3 code/compare.py`  

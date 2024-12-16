@@ -1,64 +1,63 @@
 import requests
 from bs4 import BeautifulSoup
 
-def get_soup_from_page_num(page_num):
+URL = "http://quotes.toscrape.com/page/"
 
-
-    url = f"http://quotes.toscrape.com/page/{page_num}/"
-
-    response = requests.get(url)
-
-    html = response.text
-
-    soup = BeautifulSoup(html)
-
-    return soup
-
-def get_quote_divs(soup):
+def get_quote_cards_from_soup(soup):
+    """Return a list of quote elements/subtrees"""
     return soup.find_all("div", class_="quote")
 
+def get_quote_from_quote_card(quote_card):
+    """Return the quote in the car as text"""
+    return quote_card.find_all("span", class_="text")[0].text
 
-def extract_quote_div(quote_div):
-    quote = quote_div.find_all("span", class_="text")[0].string
-    author_small = quote_div.find_all("small", class_="author")[0]
-    author = author_small.string
-    author_link = "http://quotes.toscrape.com" + author_small.parent.a["href"]
-    tags_div =  quote_div.find_all("div", class_ ="tags")[0]
-    tags = [a.string for a in tags_div.find_all("a", class_="tag")]
+def get_author_from_quote_card(quote_card):
+    """Return the author in the car as text"""
+    return quote_card.find_all("small", class_="author")[0].text
 
+def get_tags_from_quote_card(quote_card):
+    """Return the tags in the car as list of strings"""
+    return [tag.text for tag in quote_card.find_all("a", class_="tag")]
+
+def get_data_from_quote_card(quote_card):
+    """Return a dict with keys: quote, author, tags"""
     return {
-        "quote": quote,
-        "author": author,
-        "author_link": author_link,
-        "tags": tags
+        "quote": get_quote_from_quote_card(quote_card),
+        "author": get_author_from_quote_card(quote_card),
+        "tags": get_tags_from_quote_card(quote_card)
     }
 
-def scape_page(page_num):
+def scrape_page(page_number):
 
-    soup = get_soup_from_page_num(page_num)
+    url = URL + str(page_number)
 
-    return [extract_quote_div(quote_div) for quote_div  in get_quote_divs(soup)]
+    r = requests.get(url)
+    html = r.text
+    soup = BeautifulSoup(html)
 
-def scrape_pages():
+    quote_cards = get_quote_cards_from_soup(soup)
 
-    current_page = 1
+    return [get_data_from_quote_card(quote_card) for quote_card in quote_cards]
+
+def scrape():
+
+    page = 1
+
     data = []
 
     while True:
 
-        new_data = scape_page(current_page)
+        page_data = scrape_page(page)
 
-        if not new_data:
+        if not page_data:
             break
 
-        data += new_data
-        current_page += 1
-    
+        page += 1
+        data += page_data
+
+    print(page)
     return data
 
-
-if __name__ == "__main__":
-    import pprint
-
-
-    pprint.pprint(scrape_pages())
+data = scrape()
+print(data[-5:])
+print(len(data))
