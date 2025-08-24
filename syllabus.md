@@ -187,8 +187,8 @@ Suggested Readings:
 Downey: 1, 2, 3, 5 (skip recursion topics), 6 (skip recursion topics), 7, 8, 10, 11, 12, 14, 19 (skip Named Tuples), 20
 Harrison: 3-11, 14, 16-28, 32, 33 (except "SQL" section)
 ## Midterm Project
-Project Work Week -- _Thursday, Oct 10th_ and _Tuesday, Oct 15th_ will be used for in class project work.  
-Midterm Project Presentations will be on _Thursday, Oct 17, 3:30pm-5:00pm CT_.
+Project Work Week -- _Thursday, Oct 9th_ and _Tuesday, Oct 14th_ will be used for in class project work.  
+Midterm Project Presentations will be on _Thursday, Oct 16, 3:30pm-5:00pm_.
 
 ## Topic 3 SQL and Python with SQL
 Suggested Readings:
@@ -198,6 +198,6 @@ Harrison: 33 ("SQL" section)
 
 ## Final Project
 
-Project Work Days -- _Thursday, November 21st_, _Tuesday, December 3rd_, and _Thursday, December 5th_ will be used for in-class project work.
+Project Work Days -- _Thursday, November 20th_, _Tuesday, December 2nd_, and _Thursday, December 4th_ will be used for in-class project work.
 
-Final Project Presentations will be on _Friday, December 13th, 3:30pm-5:30pm CT_.
+Final Project Presentations will be on _Saturday, December 13, 8:00 am-10:00 am_.
