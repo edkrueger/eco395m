@@ -134,8 +134,38 @@ Your participation grade will be based on the extent to which you attend class d
 * You must attend every group's presentation on presentation days, not just your own group's.
 * If you know in advance that you have a conflict with one of the presentation dates (e.g., due to travel or religious observance) or require accommodations, please see me as soon as possible to work out an alternative. 
 * If you will be absent from a project presentation, you must notify me prior to the presentation at edwardkrueger@utexas.edu. Where advanced notification is not feasible, **the notification must be given by the end of the second day after the absence.** Non-excused absences will result in a zero for that portion of your grade.
----
 
+### AI Policy
+
+The creation of artificial intelligence tools for widespread use is an exciting innovation. The University encourages all students to engage with AI responsibly and to understand that there are important limitations to using generative AI for learning.
+
+The use of generative artificial intelligence tools (or Large Language Models [LLMs]) such as CoPilot or ChatGPT in this class shall be permitted on a limited basis.
+
+You may use AI to research *how* to do things (write code, install software, etc.).  
+
+You may not ask AI to *generate* code for assignments or projects.
+
+For example, its acceptable to to ask:
+
+* I'm using beautifulsoup to extract elements from a web page, and I'm unsure how to extract the href value from an element. Can you show me how?
+* When I run my code, I receive the following error "{error here}". Can you help me understand it?
+
+It is not acceptable to prompt:
+
+* Here is some HTML, write code using beautifulsoup to extract all the url of all of the links.
+* Here is my code "{code here}", when I run it it get the error "{error here}", fix my code.
+
+You may not use AI-based code completion.
+
+You can use AI to brainstorm ideas for your projects, but you may not use it to generate a project scope for you.
+
+*_Citation does not remedy unacceptable use._*
+
+Using LLMs as part of your tech stack in your projects is acceptable and encouraged. Additionally, certain homeworks will require the use of AI through an API.
+
+Using generative AI without authorization or failing to cite generative AI use according to the citation policy in this course, even where permitted, may constitute a violation of UT Austin’s Institutional Rules on academic integrity and may be referred to student conduct for resolution.
+
+---
 # University Disclosures and Policies
 
 ## Statement on Academic Integrity and Conduct
