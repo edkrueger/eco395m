@@ -1,0 +1,35 @@
+nano file.sh
+sh file.sh
+git status
+git add .
+git commit -m "say hello to the user."
+git push
+    git push --set-upstream origin say-hello-to-user\
+
+git push
+git checkout main
+git branch
+git branch random-number
+git checkout random-number
+git branch
+nano file.sh
+sh file.sh
+git status
+git add file.sh
+git commit -m "Add a random number"
+git push
+    git push --set-upstream origin random-number\
+
+git push
+git status
+git checkout main
+git branch
+git branch -rm
+git branch -rm random-number
+git branch -rm say-hello-to-user
+git branch -rm say-hello-to-user
+git branch
+git branch -d random-number
+git branch -d say-hello-to-user
+git branch
+git pull

@@ -1,0 +1,59 @@
+cd ~/Desktop
+echo $HOME
+cd pwd
+mkdir demo
+cd demo
+ls
+touch file
+touch file.txt
+cat file
+echo 'Hello'
+echo 'Hello' > file.txt
+cat file.txt
+echo $RANDOM > file.txt
+cat file.txt
+echo $RANDOM >> file.txt
+cat file.txt
+touch file2.txt
+echo $RANDOM >> file2.txt
+echo $RANDOM >> file2.txt
+echo $RANDOM >> file2.txt
+cat file.txt file2.txt
+cat *.txt
+cat *.txt | grep 9
+touch .file
+ls -a
+cd .
+cat ./*.txt
+cd ..
+pwd
+cd demo
+echo 'hello' > file.txt 
+echo 'Hello' > file2.txt
+echo $RANDOM >> file2.txt
+cat ./*.txt | grep hello
+cat ./*.txt | grep -i hello
+cat ./*.txt | grep -iv l
+cat ./*.txt | grep -vi l
+
+echo $PATH
+
+ls /bin
+cd ~/Desktop/demo
+ls
+rm file
+ls
+rm demo
+rm -rf demo
+
+to look into:
+mv
+cp
+wc
+head
+
+bonus:
+awk
+sed
+
+echo 'echo hello' >> .zshrc

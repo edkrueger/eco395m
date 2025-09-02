@@ -1,0 +1,38 @@
+print(1)
+print(type(1))
+print(type(3.14))
+print(type(3.14j))
+print(3 + 4.6)
+print(type(3 + 3))
+print(type(3 + 0.0))
+print(type(1 / 1))
+print(type(1 / 2))
+print(type(1 + 4))
+print(1j * 1j)
+
+print(int(1.123))
+print(int(1.6))
+print(round(1.6))
+print(float(1))
+
+print(45 // 5)
+print(46 // 5)
+
+print(45 % 5)
+print(46 % 5)
+print(3 ** 6)
+
+print(4 > 3)
+print(4 >= 3)
+print(4 < 3)
+print(4 <= 3)
+print(4 == 3)
+print(4 == 4.0)
+
+print(not True)
+print(True and False)
+print(True or False)
+print(0 or 0)
+print(0 or 1)
+print(1 or 1)
+
