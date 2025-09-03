@@ -1,1 +1,2 @@
 Hi. I'm a first year MA student in Economics, and I look forward to learning about Python and other stuffs!
+I am especially interested in using Python as a tool for analyzing trade related data around the world
