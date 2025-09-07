@@ -1,0 +1,5 @@
+Hi, my name is Linyao Ni.
+I'm a master's student in economics at UT Austin.
+I'm interested in econometrics, programming (Pyton, Stata, R), and data science applications.
+Recently I'm also focusing on the latest development of artificial intelligence and its application is different industries.
+Looking forward to collaborating with classmates!
