@@ -1,0 +1,4 @@
+Hello everyone, my name is Xiaodan (Denis) Fang, a second-year student in this MAE program. I'm mainly interested in 
+applied microeconomics field, and I can use Python, Stata and R to achieve my research goals. 
+In my spare time I love going to the gym and playing basketball, or just sitting at home to watch TV or play games.
+I'm expecting to enhance my programming skills throughout this class, and I'm happy to work projects together with you!
