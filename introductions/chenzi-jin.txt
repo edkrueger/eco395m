@@ -1,8 +1,6 @@
-Hey everyone, I'm JIN.
+Hello everyone, I'm JIN. 
 
-I am fancinated by in economics because it use data and models to make sense of real-world problems, especially how markets work and how we can design them better.
-
+I am fancinated by economics because it uses data and models to make sense of real-world problems, especially market mechanism design.
 The greatest appeal of programming is that it helps me tackle complicated practical economic issues effectively. That is why, I am currently developing my skills in Python, R and SQL.
 Beyond academics, I am a sports enthusiast. I firmly believe diverse experiences can provide broader perspectives and enhance problem-solving abilities.
-
 Really looking forward to learning with everyone in this class and working together on the cool projects.
