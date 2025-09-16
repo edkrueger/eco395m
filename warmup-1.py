@@ -8,7 +8,8 @@ def sleep_in(weekday, vacation):
     sleep_in(True, False) → False
     sleep_in(False, True) → True
     """
-    return
+   
+    return not weekday or vacation
 
 
 def monkey_trouble(a_smile, b_smile):
