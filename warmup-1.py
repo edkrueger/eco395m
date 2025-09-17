@@ -79,7 +79,10 @@ def makes10(a, b):
     makes10(9, 9) → False
     makes10(1, 9) → True
     """
-    return
+    if a == 10 or b == 10 or a + b == 10:
+        return True
+    else:
+        return False
 
 
 def near_hundred(n):
