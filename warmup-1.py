@@ -107,7 +107,23 @@ def pos_neg(a, b, negative):
     pos_neg(-1, 1, False) → True
     pos_neg(-4, -5, True) → True
     """
-    return
+    if negative == True and a < 0 and b < 0:
+        return True
+    elif negative == True:
+        return False
+    elif a < 0 and b > 0:
+        return True
+    elif a > 0 and b < 0:
+        return True
+    else: 
+        return False 
+    
+    # if a or b > 0 and a or b < 0:
+        #return True
+    #elif negative == True and a and b < 0:
+        #return True
+    #else:
+       # return False
 
 
 def not_string(str):
