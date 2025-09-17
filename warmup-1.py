@@ -63,7 +63,12 @@ def parrot_trouble(talking, hour):
     parrot_trouble(True, 7) → False
     parrot_trouble(False, 6) → False
     """
-    return
+    if talking == True and hour < 7:
+        return True
+    elif talking == True and hour > 20:
+        return True
+    else:
+        return False
 
 
 def makes10(a, b):
