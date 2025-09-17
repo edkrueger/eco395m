@@ -165,7 +165,9 @@ def front3(str):
     front3('Chocolate') → 'ChoChoCho'
     front3('abc') → 'abcabcabc'
     """
-    return
+    if len(str) == 3:
+         return 3 * str
+    return (str[:3]) * 3
 
 
 if __name__ == "__main__":
