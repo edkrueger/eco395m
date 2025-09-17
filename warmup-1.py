@@ -117,16 +117,9 @@ def pos_neg(a, b, negative):
         return True
     else: 
         return False 
-    
-    # if a or b > 0 and a or b < 0:
-        #return True
-    #elif negative == True and a and b < 0:
-        #return True
-    #else:
-       # return False
 
 
-def not_string(str):
+def not_string(s):
     """
     Given a string, return a new string where "not " has been added to the front. However, if the string already begins with "not", return the string unchanged.
 
@@ -134,7 +127,10 @@ def not_string(str):
     not_string('x') → 'not x'
     not_string('not bad') → 'not bad'
     """
-    return
+    if s[:3] == "not":
+        return s
+    else:
+        return "not " + s 
 
 
 def missing_char(str, n):
