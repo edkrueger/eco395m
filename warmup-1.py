@@ -141,7 +141,7 @@ def missing_char(str, n):
     missing_char('kitten', 0) → 'itten'
     missing_char('kitten', 4) → 'kittn'
     """
-    return
+    return str[:n] + str[n + 1:]
 
 
 def front_back(str):
