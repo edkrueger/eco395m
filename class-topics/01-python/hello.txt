@@ -1,0 +1,8 @@
+hello
+world\n
+another line
+1
+2
+3
+4
+5

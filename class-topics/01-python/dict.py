@@ -71,37 +71,37 @@ my_realistic_dict = {
 
 print(my_realistic_dict)
 
-def count_the_numbers(my_list):
+# def count_the_numbers(my_list):
 
-    count = {}
+#     count = {}
 
-    for e in my_list:
-        if not e in count:
-            count[e] = 1
-        else:
-            count[e] += 1
+#     for e in my_list:
+#         if not e in count:
+#             count[e] = 1
+#         else:
+#             count[e] += 1
     
-    return count
+#     return count
 
-def char_freq(my_list):
+# def char_freq(my_list):
 
-    count = {}
+#     count = {}
 
-    for char in my_list:
+#     for char in my_list:
 
-        char_lower = char.lower()
+#         char_lower = char.lower()
 
-        if not char_lower in count:
-            count[char_lower] = 1
-        else:
-            count[char_lower] += 1
+#         if not char_lower in count:
+#             count[char_lower] = 1
+#         else:
+#             count[char_lower] += 1
     
-    return count
+#     return count
 
-print(count_the_numbers([1, 9, 2, 3, 4, 9, 9]))
+# print(count_the_numbers([1, 9, 2, 3, 4, 9, 9]))
 
-english_statement = """First, I wake up. Then, I get dressed. I walk to school. I do not ride a bike. I do not ride the bus. I like to go to school. It rains. I do not like rain. I eat lunch. I eat a sandwich and an apple."""
-print(char_freq(english_statement))
+# english_statement = """First, I wake up. Then, I get dressed. I walk to school. I do not ride a bike. I do not ride the bus. I like to go to school. It rains. I do not like rain. I eat lunch. I eat a sandwich and an apple."""
+# print(char_freq(english_statement))
 
 
 
