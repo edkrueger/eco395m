@@ -1,3 +1,5 @@
 python-dotenv
 requests
 beautifulsoup4
+pandas
+jupyter-black
