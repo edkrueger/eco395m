@@ -48,6 +48,7 @@ Requirements for clean code:
 * You should delete functions that are no longer used
 * Your should remove code that isn’t used
 * Your should not have any commented out code
+* If applicable, use a .env file to set credentials, don't commit them to the repo!
 
 Requirements for comments and docstrings:
 * Functions should have simple docstrings explaining their inputs and outputs
