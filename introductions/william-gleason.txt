@@ -1,0 +1,4 @@
+Hello my name is William Gleason. I completed my undergraduate degree in Economics here at UT Austin and 
+I wasn't ready to leave so soon. My favorite topics in Economics are microtheory and public econ. 
+I have very little coding knowledge outside of R but I wanted to challenge myself by taking this course.
+I am looking forward to improving my technical skills through this course.    
