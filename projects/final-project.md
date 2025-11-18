@@ -9,14 +9,16 @@ You'll include an analysis and visualization element in your project.
 You'll have to use at least one significant technology or pattern that we haven't covered in homework. Some examples of variable difficulty could include:
 * Using Big Query
 * Making an interactive dashboard in Streamlit
-* Making an application or dashboard in FastAPI (or Flask)
+* Making an application, dashboard, or data API in FastAPI
 * Making and deploying a dashboard as a static site
-* Using the ORM part of SQLAlchemy
+* Using the SQL Model ORM or the ORM part of SQLAlchemy
 * Use a faster library (CUDF, Polars, Dask, Spark, etc.) to process larger datasets
 * Take advantage of Postgres' Full-text search
 * Take advantage of Postgres' GIS capabilities
 * Take advantage of Postgres' Vector Search
 * Take advantage of Postgres' JSON
+* Try LanceDB for vector search
+* Try DuckDB for relational data
 * Schedule scraper to run periodically by deploying
 * Use an ML model to make predictions on demand
 * Using a noSQL database
@@ -104,7 +106,7 @@ Requirements for the repo:
 ## Presentation - (5 points)
 
 Requirements for the presentation:
-* You should try to test your setup in <location TBD> before the day of presentations if possible, problems during the setup will cut into your presentations and affect your grade.
+* You should try to test your setup in  <location TBD> before the day of presentations if possible, problems during the setup will cut into your presentations and affect your grade.
 * The presentation must be around 10 minutes – we’ll cut you off if it isn’t.
 * The presentation should primarily focus on your goal, methodology, findings, limitations and potential extensions.
 * You should limit your discussion of packages or techniques, whether related to the code or otherwise, to things that your classmates would not already know either from in class or in their training as Economists.
