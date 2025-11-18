@@ -33,7 +33,7 @@ You’ll use a public GitHub repository to organize, record and document your wo
 * You'll use a new technology or pattern to perform meaningful tasks
 * You'll discuss your choice with me to set group-specific goals which you'll be graded according to
 
-## The Report in README.md - (15 points)
+## The Report in README.md - (20 points)
 
 The report should cover your data source and your analysis.  
 
@@ -53,7 +53,7 @@ Requirements for reporting about the data:
 * Limitations of the data must be clearly outlined
 * A discussion of extensions of data that would be required to improve the analysis should be included
 
-## Reproducibility - (20 points)
+## Reproducibility - (10 points)
 
 Your work must be reproducible. This means that anyone should be able to follow your instructions to run your code on your data and get the same results you do.  
 
@@ -65,7 +65,7 @@ Requirements for reproducibility:
 * Data should be included in the repository if the dataset is small enough, otherwise, instructions for downloading the datasets and placing them in the right locations are required
 * Your code should have as few entry points as reasonable. I.e. rather than requiring `data_cleaning_step_1.py`, `data_cleaning_step_2.py`, etc., to be run, have simply `data_cleaning.py`
 
-## Code Quality - (15 points)
+## Code Quality - (20 points)
 
 Requirements for formatting:
 * Your code should use double and single quotes consistently
