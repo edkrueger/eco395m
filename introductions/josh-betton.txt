@@ -1,0 +1,4 @@
+Hey yall, my name is Josh Betton. I grew up in Austin and I studied Finance and Economics at the University of North Texas. 
+I'm interested in econometrics, specifically time series econometrics and its applications in finance.
+In terms of programming, I've used R in past coursework and I taught myself Python but my knowledge in the language is limited to data analysis. 
+I'm looking forward to actually solidifying the fundamentals and gaining some experience with the collaborative project development process.
