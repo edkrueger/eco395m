@@ -2,6 +2,8 @@
 
 You must have a _private_ repository with the name specified. You must also add me (edkrueger) and the TAs ([Click here for TA GitHub usernames](/ta-githubs.txt)) as collaborators.  
 
+YOU MAY USE ANY AI API (OpenAI, Jev, DeepInfra, etc.), BUT NEED TO PROVIDE ME THE KEY.
+
 In this assignment, you'll build a zero-shot classifier using OpenAI's "gpt-3.5-turbo" model through the [chat completions API](https://platform.openai.com/docs/guides/gpt/chat-completions-api). You'll ultimately use the [OpenAI Python Library](https://github.com/openai/openai-python), but it's a thin wrapper around the API, so you should read the API docs first.
 
 Though I've written this assignment and picked and subsetted the dataset to minimize costs, you should also look at the pricing for this API, which you can find [here](https://openai.com/pricing).
