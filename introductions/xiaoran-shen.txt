@@ -1,0 +1,7 @@
+Hi, my name is Xiaoran Shen. I am a master's student in Economics at UT Austin.
+
+My main interests in economics are development economics, labor economics, household economics, inequality, and applied microeconomics.
+
+I am also interested in programming and data analysis. My undergraduate major was Information Management and Information Systems, so I have experience with Python, machine learning, data processing, and basic statistical analysis.
+
+I hope to learn more about econometrics, programming, and empirical research in this course. I am also interested in working with economic data and using computational tools to answer real-world economic questions.
