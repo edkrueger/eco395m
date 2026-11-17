@@ -1,18 +1,12 @@
 from datetime import date
 from enum import Enum
-from pathlib import Path
 
-import pandas as pd
 import uvicorn
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import JSONResponse
+from psycopg2.extras import RealDictCursor
 
-CSV_PATH = Path(__file__).parent / "reaction_counts.csv"
-
-df = (
-	pd.read_csv(CSV_PATH)
-	.assign(status_published=lambda df_: pd.to_datetime(df_["status_published"]))
-)
+from database import ConnectionDep
 
 app = FastAPI()
 
@@ -33,8 +27,21 @@ def health_check():
 	)
 
 
+@app.get("/db")
+def db_health_check(conn: ConnectionDep):
+	with conn.cursor() as cur:
+		cur.execute("SELECT 1")
+		result = cur.fetchone()[0]
+
+	return JSONResponse(
+		content={"message": "ok", "result": result},
+		status_code=200,
+	)
+
+
 @app.get("/reactions")
 def get_reactions(
+	conn: ConnectionDep,
 	start_date: date | None = None,
 	end_date: date | None = None,
 	status_type: list[StatusType] | None = Query(default=None),
@@ -45,21 +52,42 @@ def get_reactions(
 			detail="start_date must be on or before end_date",
 		)
 
-	filtered = df
+	params: list = []
+	sql = """
+		SELECT
+			status_id,
+			status_message,
+			link_name,
+			status_type,
+			status_link,
+			to_char(status_published, 'YYYY-MM-DD"T"HH24:MI:SS') AS status_published,
+			num_reactions,
+			num_comments,
+			num_shares,
+			num_likes,
+			num_loves,
+			num_wows,
+			num_hahas,
+			num_sads,
+			num_angrys
+		FROM reaction_counts
+		WHERE 1=1
+	"""
 
 	if start_date is not None:
-		filtered = filtered[filtered["status_published"].dt.date >= start_date]
+		sql += " AND status_published::date >= %s"
+		params.append(start_date)
 	if end_date is not None:
-		filtered = filtered[filtered["status_published"].dt.date <= end_date]
+		sql += " AND status_published::date <= %s"
+		params.append(end_date)
 	if status_type is not None:
-		allowed = {t.value for t in status_type}
-		filtered = filtered[filtered["status_type"].isin(allowed)]
+		sql += " AND status_type = ANY(%s)"
+		params.append([t.value for t in status_type])
 
-	out = filtered.copy()
-	out["status_published"] = out["status_published"].dt.strftime("%Y-%m-%dT%H:%M:%S")
-	records = out.astype(object).where(pd.notnull(out), None).to_dict(orient="records")
 
-	return records
+	with conn.cursor(cursor_factory=RealDictCursor) as cur:
+		cur.execute(sql, params)
+		return cur.fetchall()
 
 
 if __name__ == "__main__":
