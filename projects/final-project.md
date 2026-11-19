@@ -1,5 +1,14 @@
 # Final Project 
 
+## AI Policy Exemption
+
+You may use AI on this project. If you choose to, I strongly recommend that you use Cursor or similar editor. Ultimately, as with all tools, *you* are responsible for the code and report *you* submit. Your project's code quality and report's coherency is your responsibility. "My AI hallucinated" is never a valid excuse.
+
+
+“A computer can never be held accountable, therefore a computer must never make a ~management~ decision.”  
+
+– IBM Training Manual, 1979 [emphasis added] 
+
 You’ll work in self-assigned groups with 3-7 members. (If there are too many small groups, I may have to merge them or adjust presentation times.)
 
 You'll use a database. You'll select a topic and data sources to load into a database. This may take the form of ETL with a Python, Pandas, or other script, directly loading CSVs or other files into Postgres or BigQuery, or using a database to store results of web or API scraping. Other uses could be acceptable, such as building an app to load data into and from a database or using a database as a way of caching scientific computations.
