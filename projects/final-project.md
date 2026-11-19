@@ -22,7 +22,7 @@ You'll have to use at least one significant technology or pattern that we haven'
 * Making an interactive dashboard in Streamlit
 * Making an application, dashboard, or data API in FastAPI
 * Making and deploying a dashboard as a static site
-* Using the SQL Model ORM or the ORM part of SQLAlchemy
+* Using the SQL Model ORM or the ORM part of SQL Model
 * Use a faster library (CUDF, Polars, Dask, Spark, etc.) to process larger datasets
 * Take advantage of Postgres' Full-text search
 * Take advantage of Postgres' GIS capabilities
